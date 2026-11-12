@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" href="images/favicon.png" type="images/x-icon">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/owl.theme.green.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  
+
+
+<div class="sidebar d-flex flex-column">
+  <div class="logo">logo <small>Admin Panel</small></div>
+  <nav class="nav flex-column mt-2">
+    <a class="nav-link active" href="#"><i class="bi bi-grid-fill"></i> Dashboard</a>
+    <a class="nav-link" href="#"><i class="bi bi-box-seam"></i> Products</a>
+    <a class="nav-link" href="#"><i class="bi bi-images"></i> Gallery</a>
+    <a class="nav-link" href="#"><i class="bi bi-envelope-paper"></i> Contact Enquiries</a>
+    <a class="nav-link" href="#"><i class="bi bi-inbox"></i> Enquiries</a>
+    <a class="nav-link" href="#"><i class="bi bi-gear"></i> Settings</a>
+  </nav>
+  <div class="mt-auto p-3">
+    <a href="#" class="nav-link text-danger"><i class="bi bi-box-arrow-right"></i> Logout</a>
+  </div>
+</div>
+
+<div class="main">
+  <div class="topbar">
+    <div>
+      <h6 class="title">Dashboard</h6>
+      <p class="subtitle">Universal Oven Management System</p>
+    </div>
+    <div class="d-flex align-items-center gap-2">
+      <div class="text-end">
+        <div style="font-size:13px; font-weight:600;">Admin</div>
+        <div style="font-size:11px; color:#888;">Administrator</div>
+      </div>
+      <div class="rounded-circle d-flex align-items-center justify-content-center fw-bold text-white" style="width:36px;height:36px;background:var(--primary-maroon);">A</div>
+    </div>
+  </div>
+
+  <div class="p-4">
+    <h4 class="fw-bold mb-0">Dashboard</h4>
+    <p class="text-muted small mb-4">Welcome back, Admin</p>
+
+    <div class="row g-3 mb-4">
+      <div class="col-md-3 col-6">
+        <div class="stat-card d-flex justify-content-between align-items-center">
+          <div><div class="label">Total Products</div><div class="value">7</div></div>
+          <div class="icon-box bg-orange-light"><i class="bi bi-box-seam" style="color:#e68a00;"></i></div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="stat-card d-flex justify-content-between align-items-center">
+          <div><div class="label">Gallery Images</div><div class="value">9</div></div>
+          <div class="icon-box bg-blue-light"><i class="bi bi-image" style="color:#4a90e2;"></i></div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="stat-card d-flex justify-content-between align-items-center">
+          <div><div class="label">Total Enquiries</div><div class="value">0</div></div>
+          <div class="icon-box bg-green-light"><i class="bi bi-inbox" style="color:#e91e63;"></i></div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="stat-card d-flex justify-content-between align-items-center">
+          <div><div class="label">Unread Enquiries</div><div class="value">0</div></div>
+          <div class="icon-box bg-pink-light"><i class="bi bi-bell-fill" style="color:#ff9800;"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="row g-3">
+      <div class="col-lg-6">
+        <div class="content-card">
+          <div class="d-flex justify-content-between align-items-center p-3 border-bottom">
+            <h6 class="m-0 fw-bold" style="font-size:14px;">Recent Products</h6>
+            <a href="#" class="view-all">View All</a>
+          </div> -->
+          <!-- <div class="list-group list-group-flush">
+            <div class="list-group-item d-flex align-items-center justify-content-between py-3">
+              <div class="d-flex align-items-center gap-3"><img src="https://picsum.photos/100?1" class="product-img"><div><div style="font-size:13px; font-weight:600;">Direct Gas Fired Ribbon Oven</div></div></div>
+              <span class="badge badge-active rounded-pill">Active</span>
+            </div>
+            <div class="list-group-item d-flex align-items-center justify-content-between py-3">
+              <div class="d-flex align-items-center gap-3"><img src="https://picsum.photos/100?2" class="product-img"><div><div style="font-size:13px; font-weight:600;">Tin Printing Travelling Oven</div><small class="text-muted" style="font-size:11px;">Oven</small></div></div>
+              <span class="badge badge-active rounded-pill">Active</span>
+            </div>
+            <div class="list-group-item d-flex align-items-center justify-content-between py-3">
+              <div class="d-flex align-items-center gap-3"><img src="https://picsum.photos/100?3" class="product-img"><div><div style="font-size:13px; font-weight:600;">Indirect Fired Oven</div><small class="text-muted" style="font-size:11px;">oven</small></div></div>
+              <span class="badge badge-active rounded-pill">Active</span>
+            </div>
+            <div class="list-group-item d-flex align-items-center justify-content-between py-3">
+              <div class="d-flex align-items-center gap-3"><img src="https://picsum.photos/100?4" class="product-img"><div><div style="font-size:13px; font-weight:600;">rotary Rack oven</div><small class="text-muted" style="font-size:11px;">oven</small></div></div>
+              <span class="badge badge-active rounded-pill">Active</span>
+            </div>
+            <div class="list-group-item d-flex align-items-center justify-content-between py-3">
+              <div class="d-flex align-items-center gap-3"><img src="https://picsum.photos/100?5" class="product-img"><div><div style="font-size:13px; font-weight:600;">fired Oven</div><small class="text-muted" style="font-size:11px;">oven</small></div></div>
+              <span class="badge badge-active rounded-pill">Active</span>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- <div class="col-lg-6">
+        <div class="content-card h-100">
+          <div class="d-flex justify-content-between align-items-center p-3 border-bottom">
+            <h6 class="m-0 fw-bold" style="font-size:14px;">Recent Enquiries</h6>
+            <a href="#" class="view-all">View All</a>
+          </div>
+          <div class="d-flex align-items-center justify-content-center" style="height:250px;">
+            <p class="text-muted small m-0">No enquiries found.</p>
+          </div>
+        </div>
+      </div> -->
+    <!-- </div> -->
+  </div>
+</div>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+
+
+
+
+
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

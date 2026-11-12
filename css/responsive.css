@@ -1,0 +1,139 @@
+@media (max-width:1200px){
+
+}
+@media (max-width:992px){
+    .topHeader .links a{
+        text-wrap:wrap;
+        white-space: nowrap;
+    }
+    .topHeader .container{
+        max-width: 100%;
+    }
+    .topHeader .info{
+        text-wrap: nowrap;
+         white-space: nowrap;
+    }
+    .social-link-outer{
+        padding-left: 0px !important;
+    }
+    .main-heading{
+        line-height: 1;
+        font-size: 30px;
+    }
+    .btn-view{
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+     #client-slider{
+        width: 80%;
+    } 
+    
+}
+@media (max-width:768px){
+    .topHeader div{
+        align-items: center;
+        justify-content: center;
+
+    }
+    .links{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-link-outer{
+        padding-left: 10px !important;
+    }
+    #client-slider  h2{
+        font-size: 30px;
+    } 
+}
+@media (max-width:576px){
+    .hero-link{
+         white-space: nowrap;
+    }
+    .hero-link a{
+       font-size: 14px;
+       padding: 10px 5px; 
+    }
+    .hero-section h1{
+        font-family: 24px;
+    }
+     .hero-section h3{
+        font-size: 20px;
+     }
+     .counter-section{
+    min-height: 400px;
+  }
+  .counter-outer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .counter{
+    height: 80px;
+    width: 80px;
+  }
+  .counter-icon{
+    font-size: 30px;
+  }
+  .counter-inner h3{
+    padding: 5px 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+  }
+  .counter-inner p{
+    font-size: 14px;
+  }
+   #client-slider h2{
+    font-size: 24px;
+  }
+  #client-slider{
+    width: 100%;
+  } 
+}
+@media (max-width:425px){
+    .social-link-outer{
+        padding-left: 0px !important;
+    }
+    .topHeader .info a{
+        white-space: nowrap;
+        font-size: 12px;
+    }
+    .topHeader div a{
+        font-size: 12px;
+    }
+    .social-link{
+        height: 20px;
+        width: 20px;
+        margin: 0px 3px;
+    }
+    .counter-icon{
+        font-size: 24px;
+    }
+    .counter-section{
+        min-height: 300px;
+    }
+    .counter{
+        height: 60px;
+        width: 60px;
+    }
+    .counter-inner h3{
+        padding: 3px 0px;
+        font-size: 24px;
+    }
+}
+@media (max-width:375px){
+    .hero-link a{
+        font-size: 12px;
+    }
+    .hero-section h1{
+        font-size: 20px;
+    }
+    .hero-section h3{
+        font-size: 18px;
+    }
+  
+}
+@media (max-width:320px){
+
+}
